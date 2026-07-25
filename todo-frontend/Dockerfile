@@ -3,6 +3,7 @@ FROM node:18 AS build
 WORKDIR /app
 
 COPY package.json ./
+COPY package-lock.json ./
 RUN --mount=type=cache,target=/root/.npm npm install
 
 COPY . .
