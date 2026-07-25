@@ -5,3 +5,4 @@ db.sqlite3
 pg_db.txt
 pg_user.txt 
  *.txt 
+one_more_file_for_testing
